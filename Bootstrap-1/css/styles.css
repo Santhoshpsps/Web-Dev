@@ -1,0 +1,88 @@
+/* Title */
+#title{
+  background-color: #262626;
+  /* font-family: 'Amatic SC', cursive; */
+    padding: 3% 15%;
+    font-size: 1.5rem;
+  font-family: 'Shadows Into Light', cursive;
+}
+.introtext{
+  color: #C9C9C9;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+}
+.row1{
+  position: relative;
+}
+.introbut{
+  position: absolute;
+  margin: 30px;
+  size:3rem;
+  top: 100px;
+  left: 300px;
+}
+.btn-lg{
+  min-width: 200px;
+}
+.div1{
+  position: absolute;
+  top: 200px;
+  left: 150px
+}
+
+.div2{
+position: relative;
+left: 600px;
+
+}
+.tit{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.75rem;
+}
+.container-fluid{
+  padding: 1% 15%;
+}
+/* Navigation bar */
+.nav-item{
+  margin: 15px;
+}
+
+
+/* Programs */
+#programs{
+  text-align: center;
+  background-color: #EBEBEB;
+  padding: 10% 5%;
+}
+h3{
+  font-family: 'Shadows Into Light', cursive;
+}
+.p{
+  /* margins: 15px; */
+  padding: 20px;
+  /* margin: 1%; */
+}
+.prog-img{
+  margin: 5%;
+}
+p{
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bold;
+}
+
+/* My-Story */
+#mystory{
+  background-color: #262626;
+  color: #C9C9C9;
+    padding: 7% 15%;
+    font-size: 1.5rem;
+    text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+}
+.storyimg{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}

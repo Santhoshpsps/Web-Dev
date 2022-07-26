@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Supercell';
+    src: url('../font/Supercell-magic-webfont.ttf');
+}
+
+h1{
+  /* margin: 0 ; */
+  margin-top: 150px;
+  padding: 50px;
+  font-size: 3.625rem;
+  line-height: 2;
+}
+h2{
+    margin-top: 50px;
+  font-size: 1.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+
+}
+.ppic{
+  margin:50px auto 35px auto;
+}
+h3,a{
+  color: #11999E;
+}
+a{
+  text-decoration: none;
+}
+p{
+  padding: 20px;
+  margin: 50px;
+}
+body{
+  line-height: 2;
+  margin: 0;
+  text-align: center;
+  font:inherit;
+  font-family: Supercell;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+
+}
+.middle-container{
+  line-height: 2;
+}
+hr{
+  border-style: dotted none none none;
+  border-width: 15px;
+  width: 120px;
+  color: #EAF6F6;
+}
+.skill-row{
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 2;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+.skill-img{
+  width:15%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-img1{
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-cloud{
+position: absolute;
+top: 50px;
+right: 300px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  bottom: 300px;
+  left:300px;
+}
+.btn {
+  background: #11999E;
+  border-radius: 9px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 9px 20px 10px 20px;
+  text-decoration: none;
+}
+.contact-me{
+  padding: 25px;
+  margin: 20px;
+}
+.btn:hover {
+  background: #66BFBF;
+  text-decoration: none;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin: 0 auto 0 auto ;
+  padding: 50px;
+}
+.footer-link{
+  color: #11999E;
+  padding: 15px;
+}
+.footerdesc{
+  color: #fff;
+}
