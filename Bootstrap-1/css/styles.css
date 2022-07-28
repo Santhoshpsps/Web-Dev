@@ -56,7 +56,7 @@ left: 600px;
   background-color: #EBEBEB;
   padding: 10% 5%;
 }
-h3{
+h3,h2,h1{
   font-family: 'Shadows Into Light', cursive;
 }
 .p{
@@ -76,7 +76,7 @@ p{
 #mystory{
   background-color: #262626;
   color: #C9C9C9;
-    padding: 7% 15%;
+
     font-size: 1.5rem;
     text-align: center;
   font-family: 'Shadows Into Light', cursive;
@@ -85,4 +85,31 @@ p{
   width: 10%;
   border-radius: 100%;
   margin: 20px;
+}
+.carousel-item{
+      padding: 7% 15%;
+}
+
+#motivation{
+  background-color: #262626;
+  color: #C9C9C9;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.mot-img{
+  width: 15%;
+  margin:0px 20px 100px;
+}
+
+#nutrition{
+  padding: 7% 15%;
+  background-color: #EBEBEB;
+}
+.nuth2{
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+.nutp{
+  margin: 2% 10%;
+  font-size: 2rem;
 }

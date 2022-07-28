@@ -17,6 +17,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
   <title>FiTiePie | Fitness Initiative by Santhoshpsps</title>
 
+<style media="screen">
+.card-header{
+  background-color: #262626;
+  color: #C9C9C9;
+    text-align: center;
+}
+</style>
 </head>
 
 <body>
@@ -40,8 +47,8 @@
         </div>
 
       </nav>
-      <div class="row row1" >
-        <div class="col-xl-6 div1" >
+      <div class="row row1">
+        <div class="col-xl-6 div1">
           <h1 class="introtext"> BUILD A BODY YOU ARE PROUD OF</h1>
           <button type="button" class="btn btn-outline-danger btn-lg p-3 introbut" name="button">Start Today</button>
         </div>
@@ -77,37 +84,87 @@
 
   </section>
   <section id="mystory">
-    <h2>Hey! I am Santhosh, a fitness science nerd, self-made athlete.
-      I started my fitness journey at 20. And it has been a rollercoaster ride. I went from kgs gained to kgs lost and infinite experiments and training to reach a sustainable, fit and healthy body.
-      I have gone through the pain and I know what it’s like to do all this alone.
-      But I promise you are not alone on this road, I am here to help you at every step.</h2>
-      <img class="storyimg" src="santy.png " alt="no img" />
-      <p>&ltSanthoshpsps , India&gt</p>
+    <div id="testimonials-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <h2>Hey! I am Santhosh, a fitness science nerd, self-made athlete.
+            I started my fitness journey at 20. And it has been a rollercoaster ride. I went from kgs gained to kgs lost and infinite experiments and training to reach a sustainable, fit and healthy body.
+            I have gone through the pain and I know what it’s like to do all this alone.
+            But I promise you are not alone on this road, I am here to help you at every step.</h2>
+          <img class="storyimg" src="santy.png " alt="no img" />
+          <p>&ltSanthoshpsps , India&gt</p>
+        </div>
+        <div class="carousel-item ">
+          <h2>Hey! I am Harish, a body-building nerd, self-made bodybuilder.
+            I started my fitness journey at 17. And it has been a rollercoaster ride. I did infinite experiments and training to reach a sustainable diet, fit and healthy body.Body-building is like a cakewalk if u train with me. See u there :)
+            </h2>
+          <img class="storyimg" src="hari.png " alt="no img" />
+          <p>&ltHarishpsph , India&gt</p>
+      </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
   </section>
   <section id="motivation">
-    <h3>THE PAIN YOU FEEL TODAY WILL BE THE STRENGTH YOU FEEL TOMORROW</h3>
-    <img src="fattom.jpg" alt="no tom"/>
-    <img src="g1.gif" alt="no gif"/>
-    <img src="fittom.jpg" alt="no tom"/>
+    <img class="mot-img" src="TechCrunch.png" alt="no tom" />
+    <img class="mot-img" src="tnw.png" alt="no gif" />
+    <img class="mot-img" src="bizinsider.png" alt="no tom" />
+    <img class="mot-img" src="mashable.png" alt="no tom" />
+
   </section>
   <section id="nutrition">
-    <h2>YOU GOTTA NOURISH TO FLOURISH </h2>
-    <p>Macronutrients are the nutrients in food that your body needs in large amounts: carbohydrates, fat, and protein. These nutrients give you energy and keep your body systems functioning.</p>
-    <h3>PROTEIN</h3>
-    <h2>Main Building Block</h2>
-    <p>Needed for more than just muscle growth</p>
-    <p>Made up of many different amino acids</p>
-    <p>Adults need to eat 0.8 grams protein per kilogram of weight</p>
-    <h3>CARBS</h3>
-    <h2>Source of Energy</h2>
-    <p>Supply your body with glucose, which your cells use as fuel</p>
-    <p>Healthiest sources of carbohydrates—unprocessed or minimally processed starches such as potatoes or yams, vegetables, fruits and beans</p>
-    <p>Unhealthier sources of carbohydrates include breads, pasta, pastries, sodas, and other processed or refined foods</p>
-    <h3>FAT</h3>
-    <h2>Backbone to Hormones</h2>
-    <p>Complex molecules composed of fatty acids and glycerol</p>
-    <p>Body needs fats for growth and energy</p>
-    <p>Slowest source of energy but the most energy-efficient form of food</p>
+    <h2 class="nuth2">YOU GOTTA NOURISH TO FLOURISH <img src="https://img.icons8.com/bubbles/100/000000/boxing.png"/></h2>
+    <p class = "nutp">Macronutrients are the nutrients in food that your body needs in large amounts: carbohydrates, fat, and protein. These nutrients give you energy and keep your body systems functioning.</p>
+    <div class="row">
+      <div class="col-xl-4">
+        <div class="card ">
+          <div class="card-header">
+            <h3>PROTEIN</h3>
+          </div>
+          <div class="card-body">
+            <h2 style="font-weight:600;text-align: center;">&lt MAIN BUILDING BLOCK &gt</h2>
+            <p >Needed for more than just muscle growth</p>
+            <p >Made up of many different amino acids</p>
+            <p >Adults need to eat 0.8 grams protein per kilogram of weight</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class=" card ">
+          <div class="card-header">
+            <h3>CARBS</h3>
+          </div>
+          <div class="card-body">
+            <h2 style="font-weight:600;text-align: center;">&lt SOURCE OF ENERGY &gt</h2>
+            <p >Supply your body with glucose, which your cells use as fuel</p>
+            <p >Healthiest sources of carbohydrates—unprocessed or minimally processed starches</p>
+            <p>Unhealthier sources of carbohydrates include breads, pasta, pastries, sodas</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+
+        <div class="card ">
+          <div class="card-header">
+            <h3>FAT</h3>
+          </div>
+          <div class="card-body">
+            <h2 style="font-weight:600;text-align: center;" > &lt BACKBONE TO HORMONES &gt</h2>
+            <p>Complex molecules composed of fatty acids and glycerol</p>
+            <p>Body needs fats for growth and energy</p>
+            <p>Slowest source of energy but the most energy-efficient form of food</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
   </section>
   <section id="ContactUs">
     <h3>Feel free to contact me</h3>
@@ -117,7 +174,11 @@
   <footer id="footer">
     <p>© Copyright FiTiePie</p>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
