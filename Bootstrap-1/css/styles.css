@@ -7,6 +7,7 @@
   font-family: 'Shadows Into Light', cursive;
 }
 .introtext{
+  position: relative;
   color: #C9C9C9;
   font-size: 3rem;
   line-height: 1.5;
@@ -21,7 +22,7 @@
   margin: 30px;
   size:3rem;
   top: 100px;
-  left: 300px;
+  left: 250px;
 }
 .btn-lg{
   min-width: 200px;
@@ -29,7 +30,7 @@
 .div1{
   position: absolute;
   top: 200px;
-  left: 150px
+  left: 300px
 }
 
 .div2{
@@ -48,10 +49,15 @@ left: 600px;
 .nav-item{
   margin: 15px;
 }
-
-
+.introimg{
+  position: relative;
+  left: 800px;
+  z-index: 0;
+  top:150px;
+}
 /* Programs */
 #programs{
+  position: relative;
   text-align: center;
   background-color: #EBEBEB;
   padding: 10% 5%;
@@ -112,4 +118,32 @@ p{
 .nutp{
   margin: 2% 10%;
   font-size: 2rem;
+}
+
+@media (max-width: 1700px){
+  #title{
+    text-align: center;
+  }
+  .introimg{
+    position: static;
+
+  }
+}
+
+#ContactUs{
+  background-color: #262626;
+  color: #C9C9C9;
+  text-align: center;
+  padding: 3% 3% 0 3%;
+}
+.cuimg{
+  margin: 5px;
+}
+footer{
+  background-color: #262626;
+  color: #C9C9C9;
+  font-size: 0.75rem;
+  padding-top: 15px;
+  padding-bottom: 3%;
+  text-align: center;
 }
