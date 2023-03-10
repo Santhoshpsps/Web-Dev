@@ -22,6 +22,18 @@
 
 /* BODY */
 body{
-  background-color: black;
+  /* background-color: black; */
   color: white;
+}
+
+/*TOP CONTAINER*/
+
+.top-container{
+  width: 2000px;
+  height: 1000px;
+  background-image:  url('../images/logo-box.jpg');
+  background-size:cover;
+  background-position: center;
+  background-repeat: repeat-x;
+
 }
