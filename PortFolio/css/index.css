@@ -1,39 +1,105 @@
+@font-face {
+  font-family: supercell;
+  src: url("../fonts/Supercell-Magic\ Regular.ttf");
+}
+
 /* NAV BAR */
 .navbar {
-      height: 80px;
-      background-color:black ;
-    }
-.navbar-brand{
+  margin-bottom: 0;
+  background: none;
+  height: 80px;
+}
+.navbar-inner {
+  background: transparent;
+}
+.navbar-brand {
   margin: 25px 55px;
-
 }
-.brand-img:hover{
-  width:22%;
-  height:16%;
+.brand-img {
+  opacity: 0.65;
 }
-.nav-item{
+.brand-img:hover {
+  width: 22%;
+  height: 13%;
+  opacity: 1;
+}
+.nav-item {
   padding: 15px;
   margin: auto 15px;
   font-family: monospace;
 }
-.nav-link:hover,.active{
-  color: #FEF1A3;
+.nav-link {
+  font-family: supercell;
 }
-
-/* BODY */
-body{
-  /* background-color: black; */
+.nav-link:hover,
+.active {
+  /* color: #fef1a3; */
   color: white;
 }
 
 /*TOP CONTAINER*/
 
-.top-container{
-  width: 2000px;
+#top-container {
+  width: 100%;
   height: 1000px;
-  background-image:  url('../images/logo-box.jpg');
-  background-size:cover;
+  background: url("../images/bg-img1.jfif");
+  /* background-image: url("../images/logo-box.jpg"); */
+  background-size: cover;
   background-position: center;
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+}
 
+.top-row {
+  padding: 7% 20%;
+
+  color: #e4def5c9;
+  text-align: left;
+  margin: 150px auto;
+  font-family: supercell;
+}
+.top-row h1 {
+  color: #967fcc8c;
+}
+
+.top-row h4 {
+  margin-bottom: 5%;
+}
+
+.top-row h1:hover {
+  color: #967fcc;
+}
+
+.p-container {
+  top: 200px;
+  color: #967fcc;
+}
+.p-container p {
+  margin-top: 100px;
+  line-height: 2;
+  word-spacing: 0.5rem;
+}
+
+.p-container button {
+  letter-spacing: 5px;
+  margin-top: 50px;
+  background-color: transparent;
+  border-color: transparent transparent white transparent;
+}
+
+.p-container button a {
+  text-decoration: none;
+  color: #c5b1f3;
+}
+
+.p-container button:hover {
+  background-color: #834eff83;
+  transition-duration: 0.75s;
+}
+
+.middle-container {
+  height: 800px;
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: contain;
 }

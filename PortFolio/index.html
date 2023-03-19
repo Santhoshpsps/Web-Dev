@@ -2,35 +2,75 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Santhoshpsps</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="./">
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="logo-row">
-        <a href="#" class="navbar-brand">
-          <img src="./images/logo-color.png" width = "20%" height="15%" alt="no image " class="brand-img">
-        </a>
+    <!-- <progress id="reading-progress" max="100" value="0"></progress> -->
+    <div id="top-container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="logo-row">
+          <a href="#" class="navbar-brand">
+            <img
+              src="./images/logo-white.png"
+              width="20%"
+              height="10%"
+              alt="no image "
+              class="brand-img"
+            />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">WORK</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">SHOWCASE</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="row top-row">
+        <div class="col-xxl-6">
+          <h4>Hi!</h4>
+          <h3>I'm Santhosh PSPS</h3>
       </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"> <a class="nav-link active" href="#">ABOUT</a></li>
-          <li class="nav-item"> <a class="nav-link" href="#">WORK</a></li>
-          <li class="nav-item"> <a class="nav-link" href="#">BLOG</a></li>
-          <li class="nav-item"> <a class="nav-link" href="#">CONTACT</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class ="top-container" >
+        <div class="col-xxl-6">
+          <h1>Web <br />Developer</h1>
+        </div>
+       
+      <div class="p-container">
+        <p>An enthusiastic web developer 
+          currently shaping the future of web development by designing smooth user-interfaces that promote user interaction with information and data.<br> While traveling around the world.</p>
+          <button  onclick="document.getElementById('middle-container').innerHTML = Date()">
+            <a href="#middle-container">SCROLL FOR MORE</a>
+          </button>
+        </div>
     </div>
-    <div class ="middle-container">
+    <div id="middle-container">
     </div>
-    <div class ="bottom-container">
-    </div>
+    <div id="bottom-container"></div>
+    <script src="./js/main.js">
+      </script>
   </body>
 </html>
